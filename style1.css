@@ -1,0 +1,6 @@
+body{display:grid;grid-template-areas:"entete entete" "tableau contactécole" "pied pied";grid-template-columns:3fr 1fr;background-color:lightcyan;outline: 5px double lightblue ;} header{grid-area:entete;} table{grid-area:tableau;} section{grid-area:contactécole;} footer{grid-area:pied;}
+caption,header,table,section,footer{border:5px solid black;padding:10px;} img{width:400px;height:auto;} tr,td,th{border:2px solid black;}
+header,h2{text-align:center;} h1{border: 5px ridge blue; ;}
+li{list-style-type: lower-greek;}
+
+@media screen and (max-width:800px) {body{display: grid;grid-template-areas:"entete" "tableau" "contactécole" "pied";grid-template-columns: auto;}}
